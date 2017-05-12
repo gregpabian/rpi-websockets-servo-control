@@ -1,0 +1,16 @@
+{
+  "name": "rpi-websockets-servo-control",
+  "version": "0.1.0",
+  "description": "Node.js script controlling pan/tilt head servos attached to Raspberry Pi using WebSockets",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grzegorz Pabian <greg.pabian@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pigpio": "^0.5.1",
+    "socket.io": "^2.0.1"
+  }
+}
